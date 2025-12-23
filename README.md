@@ -50,6 +50,9 @@ pcbyolo/
 
 ## 安装要求
 
+### Python版本要求
+开发环境Python版本: 3.13.9
+
 ### 依赖包
 项目依赖已在 `requirements.txt` 文件中统一管理，包含以下库：
 - PyQt6
@@ -59,7 +62,7 @@ pcbyolo/
 - matplotlib
 - mss
 - torch
-- yaml
+- PyYAML
 
 ### 安装方法
 
@@ -74,7 +77,7 @@ pip install -r requirements.txt
 pip install PyQt6
 
 # 安装YOLO和相关依赖
-pip install ultralytics opencv-python numpy matplotlib mss torch yaml
+pip install ultralytics opencv-python numpy matplotlib mss torch PyYAML
 ```
 
 ## 使用说明
@@ -138,4 +141,5 @@ python GUI.py
 ## 贡献
 
 欢迎提交Issue和Pull Request来帮助改进这个项目！
+
 
